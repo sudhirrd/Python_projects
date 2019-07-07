@@ -1,6 +1,9 @@
 num=int(input("ENTER NUMBER FOR WITCH YOU WANT TO FIBONACCI SERIES : "))
 i,j=1,1
 while(i<=num):
-    print(i, ",", j, end=" ,")
+    if(i<=num):
+        print(i, end=",")
+    if(j<=num):
+        print(j, end=" ,")
     i+=j
     j+=i
