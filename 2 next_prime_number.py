@@ -11,4 +11,4 @@ if(check(num)==1):
     num+=1
 while(check(num)==0):
     num+=1
-print(num)
+print("Next prime number is ", num)
